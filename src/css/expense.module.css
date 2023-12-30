@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+  background-color: aquamarine;
+  width: 50%;
+  margin: auto;
+  margin-block: 1rem;
+  border-radius: 1rem;
+}
+.form input {
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.form button {
+  background-color: red;
+  padding: 0.5rem;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.heading {
+  color: blueviolet;
+  font-size: 2.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  place-content: center;
+}
+.wrapper {
+  background-color: black;
+  padding: 1rem 4rem;
+  border-radius: 1rem;
+}
+.wrapper input {
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.add {
+  color: aliceblue;
+  background-color: red;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+  color: white;
+}
+.flex1 button {
+  background-color: rgb(9, 9, 153);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}

@@ -1,0 +1,34 @@
+.cart {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-block: 3rem;
+}
+
+.cartitem {
+  width: 250px;
+  display: grid;
+  gap: 1rem;
+  background-color: #faebd7;
+  border: 2px solid black;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.cartitem img {
+  width: 100%;
+
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.cartitem button {
+  width: 7rem;
+  height: 2rem;
+  padding: 0.5rem;
+  background-color: rgb(145, 9, 9);
+  color: white;
+  font-weight: bold;
+  border-radius: 1rem;
+  border: none;
+}

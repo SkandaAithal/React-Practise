@@ -1,0 +1,33 @@
+.slider {
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+}
+.slider img {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.slider button {
+  padding: 1.5rem;
+  border: none;
+  border-radius: 5px;
+}
+.slider button:first-child {
+  position: absolute;
+  left: 1rem;
+  bottom: -275px;
+  background-color: rgba(0, 0, 0, 0.361);
+  color: white;
+  font-size: 1rem;
+}
+.slider button:last-child {
+  position: absolute;
+  right: 1rem;
+  bottom: -275px;
+  background-color: rgba(0, 0, 0, 0.361);
+  color: white;
+  font-size: 1rem;
+}

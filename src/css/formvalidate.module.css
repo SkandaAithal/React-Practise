@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.validation {
+  background-color: bisque;
+  width: 50%;
+  margin: 100px auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.validation div {
+  margin-block: 1rem;
+}
+.validation input {
+  border: none;
+  padding: 0.5rem;
+  width: 20rem;
+  border-radius: 5px;
+}
+.validation button {
+  background-color: rgb(141, 41, 41);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+}
+.validation h6 {
+  color: red;
+  font-size: 1rem;
+}
